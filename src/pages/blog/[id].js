@@ -7,7 +7,7 @@ import React, { useEffect, useState } from 'react'
 import CommonMeta from '@/components/CommonMeta';
 import Image from 'next/image';
 import Prism from 'prismjs'
-import 'prismjs/themes/prism-dark.min.css'
+import 'prism-themes/themes/prism-vsc-dark-plus.min.css'
 
 const BlogId = ({ blog }) => {
 

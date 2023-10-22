@@ -7,7 +7,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 import Prism from 'prismjs'
-import 'prismjs/themes/prism-dark.css'
+import 'prism-themes/themes/prism-vsc-dark-plus.min.css'
 
 const WorkId = ({ work }) => {
 
