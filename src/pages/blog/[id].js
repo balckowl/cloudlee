@@ -56,9 +56,9 @@ const BlogId = ({ blog }) => {
 
                                                         <div className="article-share-btn-box">
                                                             <ul className="d-flex justify-content-center gap-3">
-                                                                <li><Link href={`https://twiter.com/share?url=http://localhost:3000/blog/${blog.id}`}><Image src="/images/x2.png" width={60} height={60} alt="" /></Link></li>
-                                                                <li><Image src="/images/fb.png" width={60} height={60} alt="" /></li>
-                                                                <li><Image src="/images/line.png" width={60} height={60} alt="" /></li>
+                                                                <li><Link href={`https://twiter.com/share?url=https://cloudlee.vercel.app/blog/${blog.id}`}><Image src="/images/x2.png" width={60} height={60} alt="" /></Link></li>
+                                                                <li><Link href={`http://www.facebook.com/share.php?u=https://cloudlee.vercel.app/blog/${blog.id}`}><Image src="/images/fb.png" width={60} height={60} alt="" /></Link></li>
+                                                                <li><Link href={`https://social-plugins.line.me/lineit/share?url=https://cloudlee.vercel.app/blog/${blog.id}`}><Image src="/images/line.png" width={60} height={60} alt="" /></Link></li>
                                                             </ul>
                                                         </div>
 
