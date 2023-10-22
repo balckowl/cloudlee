@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import Prism from '../plugins/prism';
 import { Noto_Sans_JP } from 'next/font/google';
 import '@/styles/globals.css'
 
