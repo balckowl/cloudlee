@@ -17,7 +17,7 @@ export default function Home({ blog, work }) {
   return (
     <div className={`top-page ${isActive ? 'is-active' : ''}`}>
       <CommonMeta
-        title='cloudee'
+        title='cloudlee'
         type='website'
         imgUrl='https://cloudlee.vercel.app/images/cloudlee.png'
         description='@y_taのブログ「cloudee」です。'
