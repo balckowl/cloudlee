@@ -21,7 +21,7 @@ export default function Home({ blog, work }) {
       <CommonMeta
         title='cloudee'
         type='website'
-        imgUrl='/images/cloudlee.png'
+        imgUrl='https://cloudlee.vercel.app/images/cloudlee.png'
         description='@y_taのブログ「cloudee」です。'
       />
       <Header isActive={isActive} setIsActive={setIsActive} />

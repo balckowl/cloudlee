@@ -54,7 +54,7 @@ const Contact = () => {
             <CommonMeta
                 title='お問い合わせ | cloudlee'
                 type='article'
-                imgUrl='/images/contact.png'
+                imgUrl='https://cloudlee.vercel.app/images/contact.png'
                 description='@y_taのブログ「cloudee」のお問い合わせページです。'
             />
             <Header isActive={isActive} setIsActive={setIsActive} />

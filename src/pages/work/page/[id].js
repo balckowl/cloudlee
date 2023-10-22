@@ -18,7 +18,7 @@ const WorkPage = ({ work, totalCount }) => {
             <CommonMeta
                 title='作ったもの | cloudlee'
                 type='article'
-                imgUrl='/images/work.png'
+                imgUrl='https://cloudlee.vercel.app/images/work.png'
                 description='@y_taのブログ「cloudee」の作品ページです。'
             />
             <Header isActive={isActive} setIsActive={setIsActive}/>

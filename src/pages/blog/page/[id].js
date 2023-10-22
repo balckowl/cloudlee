@@ -19,7 +19,7 @@ const BlogPage = ({ blog, totalCount }) => {
             <CommonMeta
                 title='まいにち通信 | cloudlee'
                 type='article'
-                imgUrl='/images/blog.png'
+                imgUrl='https://cloudlee.vercel.app/images/blog.png'
                 description='@y_taのブログ「cloudee」のブログページです。'
             />
             <Header isActive={isActive} setIsActive={setIsActive} />

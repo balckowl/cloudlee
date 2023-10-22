@@ -11,7 +11,7 @@ const CommonMeta = ({ title, imgUrl, type, description, url }) => {
             <meta property="og:site_name" content={title} />
             <meta property="og:description" content={description} />
             <meta property="og:type" content={type} />
-            <meta property="og:image" content={`${process.env.SITE_URL}${imgUrl}`} />
+            <meta property="og:image" content={`${imgUrl}`} />
             <meta name="twitter:card" content="summary_large_image" />
             <meta name="twitter:site" content="@blackcat_0506" />
         </Head>
