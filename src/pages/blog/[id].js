@@ -3,7 +3,7 @@ import Header from '@/components/Header'
 import { client } from "../../libs/client";
 import TimeStamp from '@/components/TimeStamp';
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import CommonMeta from '@/components/CommonMeta';
 import Image from 'next/image';
 import Prism from 'prismjs'
