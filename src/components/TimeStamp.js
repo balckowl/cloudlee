@@ -14,12 +14,12 @@ const TimeStamp = ({ timeStamp, retimeStamp }) => {
                         <span>{publishedAt}</span>
                     </time>
                 </li>
-                {retimeStamp &&  <li>
+                <li>
                     <time>
                         <i className="bi bi-arrow-clockwise"></i>
                         <span>{rePublishedAt}</span>
                     </time>
-                </li>}
+                </li>
             </ul>
         </div>
     )
