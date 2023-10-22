@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { init, send } from '@emailjs/browser'
-import Link from 'next/link'
 import Header from '@/components/Header'
 import Footer from '@/components/Footer'
 import CommonMeta from '@/components/CommonMeta'
