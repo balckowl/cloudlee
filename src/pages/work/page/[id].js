@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Pagination from '@/components/Pagination';
 import TimeStamp from '@/components/TimeStamp';
 import { client } from '@/libs/client';
+import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react'
 
@@ -29,7 +30,7 @@ const WorkPage = ({ work, totalCount }) => {
 
                         <div className='d-flex align-items-center justify-content-center page-title'>
                             <div className='page-title-icon-box'>
-                                <img src="/images/keybord.png" />
+                                <Image src="/images/keybord.png" width={60} height={60} alt="" />
                             </div>
                             <h2>つくった作品</h2>
                         </div>
@@ -42,7 +43,7 @@ const WorkPage = ({ work, totalCount }) => {
                                             <div className='bg-white blog-card'>
                                                 <Link href={`/work/${work.id}`}>
                                                     <div className="blog-img-box">
-                                                        <img src={work.thumbnail.url} />
+                                                        <Image src={work.thumbnail.url} fill size="100%" className='image' alt=""/>
                                                     </div>
                                                     <div className='blog-text-box'>
                                                         <TimeStamp timeStamp={work.timestamp} retimeStamp={work.retimestamp} />
