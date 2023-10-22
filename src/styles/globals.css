@@ -341,24 +341,27 @@ article h2 {
   width: 60px;
 }
 
-.article-inner h2 {
+.article-content h2 {
   font-size: 30px;
+  font-weight: 700;
   margin-bottom: 20px;
 }
 
-.article-inner h3 {
+.article-content h3 {
   margin-top: 50px;
+  font-weight: 700;
   padding-bottom: 13px;
   margin-bottom: 13px;
   border-bottom: 1px solid #eee;
 }
 
-.article-inner p {
+.article-content p {
   line-height: 2.0;
   margin-bottom: 10px;
 }
 
 .article-content {
+  padding-bottom: 25px;
   border-bottom: 1px solid #eee;
 }
 
