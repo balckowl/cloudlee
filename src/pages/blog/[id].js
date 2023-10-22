@@ -6,10 +6,16 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import CommonMeta from '@/components/CommonMeta';
 import Image from 'next/image';
+import Prism from 'prismjs'
+import 'prismjs/themes/prism-dark.min.css'
 
 const BlogId = ({ blog }) => {
 
     const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+        Prism.highlightAll()
+    })
 
     return (
         <div className={`blog-id ${isActive ? 'is-active' : ''}`}>
@@ -45,7 +51,7 @@ const BlogId = ({ blog }) => {
                                                             <TimeStamp timeStamp={blog.timestamp} retimestamp={blog.retimestamp} />
                                                         </div>
                                                         <div className='thumbnail-box'>
-                                                            <Image src={blog.thumbnail.url} fill size="100%" className="image" alt=""/>
+                                                            <Image src={blog.thumbnail.url} fill size="100%" className="image" alt="" />
                                                         </div>
 
                                                         <div className="article-share-btn-box">
@@ -68,7 +74,7 @@ const BlogId = ({ blog }) => {
                                                                 <div className="row d-flex align-items-center justify-content-center g-0">
                                                                     <div className="col-sm-5">
                                                                         <div className="writer-icon-box">
-                                                                            <Image src="/images/icon-me.png" width={100} height={100} alt=""/>
+                                                                            <Image src="/images/icon-me.png" width={100} height={100} alt="" />
                                                                         </div>
                                                                     </div>
                                                                     <div className="col-sm-7">

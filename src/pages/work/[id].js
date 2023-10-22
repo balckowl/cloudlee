@@ -5,11 +5,17 @@ import TimeStamp from '@/components/TimeStamp'
 import { client } from '@/libs/client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import Prism from 'prismjs'
+import 'prismjs/themes/prism-dark.css'
 
 const WorkId = ({ work }) => {
 
     const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+        Prism.highlightAll()
+    })
 
     return (
         <div className={`blog-id ${isActive ? 'is-active' : ''}`}>
