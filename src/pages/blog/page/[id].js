@@ -17,7 +17,7 @@ const BlogPage = ({ blog, totalCount }) => {
     return (
         <div className={`blog-page ${isActive ? 'is-active' : ''}`}>
             <CommonMeta
-                title='まいにち通信 | cloudee'
+                title='まいにち通信 | cloudlee'
                 type='article'
                 imgUrl='/images/blog.png'
                 description='@y_taのブログ「cloudee」のブログページです。'

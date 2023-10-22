@@ -16,7 +16,7 @@ const WorkPage = ({ work, totalCount }) => {
     return (
         <div className={`blog-page ${isActive ? 'is-active' : ''}`}>
             <CommonMeta
-                title='作ったもの | cloudee'
+                title='作ったもの | cloudlee'
                 type='article'
                 imgUrl='/images/work.png'
                 description='@y_taのブログ「cloudee」の作品ページです。'

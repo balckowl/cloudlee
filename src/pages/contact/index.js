@@ -52,7 +52,7 @@ const Contact = () => {
     return (
         <div className={`contact-page ${isActive ? 'is-active' : ''}`}>
             <CommonMeta
-                title='お問い合わせ | cloudee'
+                title='お問い合わせ | cloudlee'
                 type='article'
                 imgUrl='/images/contact.png'
                 description='@y_taのブログ「cloudee」のお問い合わせページです。'

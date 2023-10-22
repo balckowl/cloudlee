@@ -14,7 +14,7 @@ const WorkId = ({ work }) => {
     return (
         <div className={`blog-id ${isActive ? 'is-active' : ''}`}>
             <CommonMeta
-                title={`${work.title} | cloudee`}
+                title={`${work.title} | cloudlee`}
                 type='article'
                 imgUrl={work.thumbnail.url}
                 description={work.description}

@@ -14,7 +14,7 @@ const BlogId = ({ blog }) => {
     return (
         <div className={`blog-id ${isActive ? 'is-active' : ''}`}>
             <CommonMeta
-                title={`${blog.title} | cloudee`}
+                title={`${blog.title} | cloudlee`}
                 type='article'
                 imgUrl={blog.thumbnail.url}
                 description={blog.description}
