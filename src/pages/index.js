@@ -101,7 +101,7 @@ export default function Home({ blog, work }) {
                             <Image src={blog.thumbnail.url} fill size="100%" className="image" alt="" />
                           </div>
                           <div className='blog-text-box'>
-                            <TimeStamp timeStamp={blog.timestamp} retimeStamp={blog.retimestamp} />
+                            <TimeStamp timeStamp={blog.timestamp} retimeStamp={blog?.retimestamp} />
                             <h3>{blog.title}</h3>
                           </div>
                         </Link>
