@@ -12,7 +12,7 @@ const Header = ({ isActive, setIsActive }) => {
                         <div className='header-icon-box'>
                             <Link href="/"><Image src="/images/cloud.png" fill size="100%" className="image" alt=""/></Link>
                         </div>
-                        <h1><Link href="/">cloudee</Link></h1>
+                        <h1><Link href="/">cloudlee</Link></h1>
                     </div>
                     <nav>
                         {/* <ul className="d-flex header-nav">

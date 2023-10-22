@@ -46,7 +46,7 @@ const WorkId = ({ work }) => {
                                             <div className="col-11">
                                                 <article>
                                                     <h2>{work.title}</h2>
-                                                    <div class="article-posttime-box">
+                                                    <div className="article-posttime-box">
                                                         <TimeStamp timeStamp={work.timestamp} retimestamp={work.retimestamp} />
                                                     </div>
                                                     <div className='thumbnail-box'>
