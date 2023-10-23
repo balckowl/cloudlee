@@ -65,7 +65,7 @@ const Contact = () => {
                             <div className='page-title-icon-box'>
                                 <Image src="/images/posto.png" width={60} height={60} alt="" />
                             </div>
-                            <h2>おといあわせ</h2>
+                            <h2>お問い合わせ</h2>
                         </div>
 
                         <div className='row d-flex justify-content-center g-0'>
