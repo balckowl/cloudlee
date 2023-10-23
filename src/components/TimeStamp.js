@@ -9,7 +9,7 @@ const TimeStamp = ({ timeStamp, retimeStamp }) => {
         <div className="blog-posttime-box">
             <ul className="d-flex gap-2">
                 <li>
-                    <time datetime={dayjs(timeStamp).format('YYYY-MM-DD')}>
+                    <time dateTime={dayjs(timeStamp).format('YYYY-MM-DD')}>
                         <i className="bi bi-clock"></i>
                         <span>{publishedAt}</span>
                     </time>

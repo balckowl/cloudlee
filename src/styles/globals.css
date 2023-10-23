@@ -244,7 +244,7 @@ section {
   background-color: #ffe600;
 }
 
-.blog-page.is-active{
+.blog-page.is-active {
   overflow: hidden;
   height: 100svh;
 }
@@ -315,6 +315,7 @@ article {
 
 article h2 {
   font-weight: 700;
+  margin-bottom: 15px;
 }
 
 .article-posttime-box {
@@ -476,7 +477,7 @@ textarea {
     width: 100vw;
   }
 
-  .hero{
+  .hero {
     padding-top: 10px;
   }
 
