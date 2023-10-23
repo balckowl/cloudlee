@@ -47,7 +47,7 @@ const WorkId = ({ work }) => {
                                                 <article>
                                                     <h2>{work.title}</h2>
                                                     <div className="article-posttime-box">
-                                                        <TimeStamp timeStamp={work.timestamp} retimestamp={work.retimestamp} />
+                                                        {/* <TimeStamp timeStamp={work.timestamp} retimestamp={work.retimestamp} /> */}
                                                     </div>
                                                     <div className='thumbnail-box'>
                                                         <Image src={work.thumbnail.url} fill size="100%" className="image" alt="" />
