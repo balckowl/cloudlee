@@ -356,6 +356,12 @@ article h2 {
   border-bottom: 1px solid #eee;
 }
 
+.article-content h4{
+  margin-top: 30px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
 .article-content p {
   line-height: 2.0;
   margin-bottom: 10px;
