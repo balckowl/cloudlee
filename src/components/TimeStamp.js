@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import dayjs from 'dayjs'
 
 const TimeStamp = ({ timeStamp, retimeStamp }) => {
-    const publishedAt = dayjs(timeStamp).format('YYYY.MM.DD');
-    const rePublishedAt = dayjs(retimeStamp).format('YYYY.MM.DD');
+    const [publishedAt, setPublishedAt] = useState(dayjs(timeStamp).format('YYYY.MM.DD'));
+    // const rePublishedAt = dayjs(retimeStamp).format('YYYY.MM.DD');
 
     return (
         <div className="blog-posttime-box">
