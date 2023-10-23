@@ -366,6 +366,10 @@ article h2 {
   border-bottom: 1px solid #eee;
 }
 
+.article-content .highlight {
+  background: linear-gradient(transparent 60%, #ff6 60%);
+}
+
 .article-sns-box ul {
   gap: 6px;
 }
