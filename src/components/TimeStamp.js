@@ -14,12 +14,12 @@ const TimeStamp = ({ timeStamp, retimeStamp }) => {
                         <span>{publishedAt}</span>
                     </time>
                 </li>
-                <li>
+                {/* <li>
                     <time datetime={dayjs(retimeStamp).format('YYYY-MM-DD')}>
                         <i className="bi bi-arrow-clockwise"></i>
                         <span>{rePublishedAt}</span>
                     </time>
-                </li>
+                </li> */}
             </ul>
         </div>
     )
