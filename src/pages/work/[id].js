@@ -15,7 +15,7 @@ const WorkId = ({ work }) => {
 
     useEffect(() => {
         Prism.highlightAll()
-    })
+    }, [])
 
     return (
         <div className={`blog-id ${isActive ? 'is-active' : ''}`}>
