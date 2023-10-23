@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import dayjs from 'dayjs'
 
 const TimeStamp = ({ timeStamp, retimeStamp }) => {
-    const [publishedAt, setPublishedAt] = useState(dayjs(timeStamp).format('YYYY.MM.DD'));
-    // const rePublishedAt = dayjs(retimeStamp).format('YYYY.MM.DD');
+    const [publishedAt, setPublishedAt] = useState(dayjs(timeStamp));
+    const [republishedAt, setRepublishedAt] = useState(dayjs(retimeStamp));
 
     return (
         <div className="blog-posttime-box">
@@ -11,15 +11,15 @@ const TimeStamp = ({ timeStamp, retimeStamp }) => {
                 <li>
                     <time dateTime={dayjs(timeStamp).format('YYYY-MM-DD')}>
                         <i className="bi bi-clock"></i>
-                        <span>{publishedAt}</span>
+                        <span>{publishedAt.format('YYYY.MM.DD')}</span>
                     </time>
                 </li>
-                {/* <li>
+                <li>
                     <time datetime={dayjs(retimeStamp).format('YYYY-MM-DD')}>
                         <i className="bi bi-arrow-clockwise"></i>
-                        <span>{rePublishedAt}</span>
+                        <span>{republishedAt.format('YYYY.MM.DD')}</span>
                     </time>
-                </li> */}
+                </li>
             </ul>
         </div>
     )

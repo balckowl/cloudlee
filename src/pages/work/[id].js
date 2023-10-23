@@ -5,13 +5,14 @@ import TimeStamp from '@/components/TimeStamp'
 import { client } from '@/libs/client'
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Prism from 'prismjs'
 import 'prism-themes/themes/prism-vsc-dark-plus.min.css'
 
 const WorkId = ({ work }) => {
 
     const [isActive, setIsActive] = useState(false);
+
 
     useEffect(() => {
         Prism.highlightAll()
