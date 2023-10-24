@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://cloudlee.vercel.app/
-
-# Sitemaps
-Sitemap: https://cloudlee.vercel.app/sitemap.xml
