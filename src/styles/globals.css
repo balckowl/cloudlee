@@ -371,6 +371,7 @@ article h2 {
 
 .article-content img{
   max-width: 100%;
+  height: auto;
 }
 
 .article-content {
