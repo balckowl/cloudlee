@@ -374,6 +374,11 @@ article h2 {
   height: auto;
 }
 
+.article-content a{
+  color: #008E74;
+  text-decoration: underline;
+}
+
 .article-content {
   padding-bottom: 25px;
   border-bottom: 1px solid #eee;
